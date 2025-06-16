@@ -3,3 +3,12 @@ MAC_SILICON-M2_MPICH-4.2.1_PETSC-3.20-gcc-12.3.0/*
 config/*
 lib/*
 lib/*
+.DS_Store
+configure.log
+make.log
+RDict.log
+RDict.log.bkp
+config/.DS_Store
+doc/.DS_Store
+lib/petsc/conf/petscvariables
+MAC_Si-M2_MPICH-4.3.0_PETSC-3.20_GCC-12.4.0/*
