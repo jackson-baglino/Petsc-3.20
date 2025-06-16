@@ -6,11 +6,6 @@
 # ======================
 # Build Logs and Configuration
 # ======================
-configure.log
-configure.log.bkp
-make.log
-RDict.log
-RDict.log.bkp
 
 # ======================
 # PETSc Build Artifacts
@@ -31,10 +26,6 @@ venv/
 # ======================
 # Project-Specific Ignored Folders
 # ======================
-config/
-lib/
-doc/**/.DS_Store
-src/**/.DS_Store
 
 # ======================
 # Demo & Output Artifacts
