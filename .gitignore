@@ -1,7 +1,7 @@
 # ======================
 # macOS System Files
 # ======================
-**/.DS_Store
+.DS_Store
 
 # ======================
 # PETSc Build Outputs
@@ -21,17 +21,18 @@ RDict.log.bkp
 # Project Config Folders
 # ======================
 config/
-config/**/.DS_Store
+config/.DS_Store
 
 # ======================
 # Documentation
 # ======================
-doc/**/.DS_Store
+doc/.DS_Store
 
 # ======================
 # Source
 # ======================
 src/**/.DS_Store
+src/.DS_Store
 
 # ======================
 # PETSc / PetIGA Build Variants (Mac Silicon)
