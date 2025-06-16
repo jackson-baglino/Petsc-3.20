@@ -1,35 +1,47 @@
-MAC_SILICON-M2_MPICH-4.2.1_PETSC-3.20-gcc-12.3.0-test/*
-MAC_SILICON-M2_MPICH-4.2.1_PETSC-3.20-gcc-12.3.0/*
-config/*
-lib/*
-lib/*
-.DS_Store
+# ======================
+# macOS System Files
+# ======================
+**/.DS_Store
+
+# ======================
+# PETSc Build Outputs
+# ======================
+lib/petsc/conf/petscvariables
+
+# ======================
+# Configuration & Logs
+# ======================
 configure.log
+configure.log.bkp
 make.log
 RDict.log
 RDict.log.bkp
-config/.DS_Store
-doc/.DS_Store
-lib/petsc/conf/petscvariables
+
+# ======================
+# Project Config Folders
+# ======================
+config/
+config/**/.DS_Store
+
+# ======================
+# Documentation
+# ======================
+doc/**/.DS_Store
+
+# ======================
+# Source
+# ======================
+src/**/.DS_Store
+
+# ======================
+# PETSc / PetIGA Build Variants (Mac Silicon)
+# ======================
+MAC_SILICON-M2_MPICH-4.2.1_PETSC-3.20-gcc-12.3.0/
+MAC_SILICON-M2_MPICH-4.2.1_PETSC-3.20-gcc-12.3.0-test/
 MAC_Si-M2_MPICH-4.3.0_PETSC-3.20_GCC-12.4.0/
 MAC_Si-M2_MPICH-4.3.0_PETSC-3.20_GCC-12.4.0_DEBUG/
-.DS_Store
-configure.log
-configure.log.bkp
-make.log
-RDict.log
-RDict.log.bkp
-config/.DS_Store
-doc/.DS_Store
-lib/petsc/conf/petscvariables
-src/.DS_Store
-.DS_Store
-configure.log
-configure.log.bkp
-make.log
-RDict.log
-RDict.log.bkp
-config/.DS_Store
-doc/.DS_Store
-lib/petsc/conf/petscvariables
-src/.DS_Store
+
+# ======================
+# lib (if generated content)
+# ======================
+lib/
