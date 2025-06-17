@@ -3,15 +3,31 @@
 # ======================
 **/.DS_Store
 
-# ======================
-# Build Logs and Configuraton
-# ======================i
-# Ignore Python cache files in the config folder
-config/BuildSystem/__pycache__/**/*.pyc
+.vscode/
+.idea/
+
+###############################################################################
+# 🐍 Python Bytecode
+###############################################################################
+__pycache__/
+*.pyc
+*.pyo
 
 # ======================
 # PETSc Build Artifacts
 # ======================
+# BuildSystem artifacts (created by PETSc configure)
+config/BuildSystem/
+config/**/*.pyc
+config/**/__pycache__/
+config/examples/
+
+# Configure logs
+configure.log
+configure.log.bkp
+make.log
+RDict.log
+RDict.log.bkp
 
 # ======================
 # PETSc Configured Builds (current variants)
