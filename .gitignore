@@ -4,8 +4,10 @@
 **/.DS_Store
 
 # ======================
-# Build Logs and Configuration
-# ======================
+# Build Logs and Configuraton
+# ======================i
+# Ignore Python cache files in the config folder
+config/BuildSystem/__pycache__/**/*.pyc
 
 # ======================
 # PETSc Build Artifacts
@@ -14,5 +16,9 @@
 # ======================
 # PETSc Configured Builds (current variants)
 # ======================
+# Local Builds
 MAC_Si-M2_MPICH-4.3.0_PETSC-3.20_GCC-12.4.0/
 MAC_Si-M2_MPICH-4.3.0_PETSC-3.20_GCC-12.4.0_DEBUG/
+
+# HPC Builds
+HPC_Petsc-3.20
